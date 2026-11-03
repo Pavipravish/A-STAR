@@ -1,6 +1,6 @@
 <h1>ExpNo 4 : Implement A* search algorithm for a Graph</h1> 
-<h3>Name: ABIRAMI A </h3>
-<h3>Register Number:  212224040010 </h3>
+<h3>Name: PRAVISH J </h3>
+<h3>Register Number:  212224040249 </h3>
 <h3>Date:26.10.2026</h3>
 <H3>Aim:</H3>
 <p>To ImplementA * Search algorithm for a Graph using Python 3.</p>
@@ -50,7 +50,6 @@
     end (while loop)
 
 ``````
-
 <hr>
 <h2>Sample Graph I</h2>
 <hr>
@@ -96,8 +95,6 @@ Path found: ['A', 'F', 'G', 'I', 'J']
 <hr>
 
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/acbb09cb-ed39-48e5-a59b-2f8d61b978a3)
-
-
 <hr>
 <h2>Sample Input</h2>
 <hr>
@@ -119,9 +116,9 @@ G 0 <br>
 <hr>
 Path found: ['A', 'E', 'D', 'G']
 
+
 ## Program:
-```
-from collections import defaultdict
+           from collections import defaultdict
 import networkx as nx
 import matplotlib.pyplot as plt
 
@@ -160,8 +157,7 @@ def a_star(graph, heuristic, start, goal):
 
     print("Path does not exist!")
     return None
-
-graph = defaultdict(list)
+     graph = defaultdict(list)
 G = nx.Graph()
 n, e = map(int, input("Enter number of nodes and edges: ").split())
 print("\nEnter the edges (u v cost):")
@@ -219,12 +215,10 @@ else:
         plt.title("Shortest Path Highlighted (Red)")
         plt.axis("off")
         plt.show()
-```
-
 ## Output:
 
 <img width="1212" height="685" alt="image" src="https://github.com/user-attachments/assets/98ae6bee-a588-47b7-98ae-8483c78da9ed" />
 
-
 ## Result:
 The Python program to Implement A * Search algorithm for a Graph has been executed successfully.
+
